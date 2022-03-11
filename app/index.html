@@ -1,18 +1,882 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GetStyle</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="shortcut icon" href="images/logo-adress_bar.png" type="image/png">
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>gulp-start</title>
-  <link rel="stylesheet" href="css/style.min.css">
-</head>
+  <body>
+    <header class="header">
+      <div class="header__bg">
+        <div class="header__fixed">
+          <div class="container">
+            <div class="header__inner">
+              <div class="header__logo">
+                <a class="header__logo-link" href="#">
+                  <img class="header__logo-img" src="images/logo.png" alt="" />
+                </a>
+              </div>
+              <nav class="header__menu">
+                <ul class="header__menu-list">
+                  <li class="header__menu-item">
+                    <a class="header__menu-link" href="#benefits"
+                      >Преимущества</a
+                    >
+                  </li>
+                  <li class="header__menu-item">
+                    <a class="header__menu-link" href="#top">Топ предложения</a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a class="header__menu-link" href="#partners">Партнеры</a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a class="header__menu-link" href="#faqs">Вопросы</a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a class="header__menu-link" href="#contacts">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="menu-burger">
+                <div class="menu-burger__line"></div>
+                <div class="menu-burger__line"></div>
+                <div class="menu-burger__line"></div>
+              </div>
+              <div class="menu__mobile">
+                <div class="menu__mobile-close">
+                  <svg
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="28"
+                    viewBox="0 0 22 28"
+                  >
+                    <title>close</title>
+                    <path
+                      style="fill: #9f0000"
+                      d="M20.281 20.656c0 0.391-0.156 0.781-0.438 1.062l-2.125 2.125c-0.281 0.281-0.672 0.438-1.062 0.438s-0.781-0.156-1.062-0.438l-4.594-4.594-4.594 4.594c-0.281 0.281-0.672 0.438-1.062 0.438s-0.781-0.156-1.062-0.438l-2.125-2.125c-0.281-0.281-0.438-0.672-0.438-1.062s0.156-0.781 0.438-1.062l4.594-4.594-4.594-4.594c-0.281-0.281-0.438-0.672-0.438-1.062s0.156-0.781 0.438-1.062l2.125-2.125c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l4.594 4.594 4.594-4.594c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l2.125 2.125c0.281 0.281 0.438 0.672 0.438 1.062s-0.156 0.781-0.438 1.062l-4.594 4.594 4.594 4.594c0.281 0.281 0.438 0.672 0.438 1.062z"
+                    ></path>
+                  </svg>
+                </div>
+                <ul class="menu__mobile-list">
+                  <li class="menu__mobile-item">
+                    <a class="menu__mobile-link" href="#benefits"
+                      >Преимущества</a
+                    >
+                  </li>
+                  <li class="menu__mobile-item">
+                    <a class="menu__mobile-link" href="#top">Топ предложения</a>
+                  </li>
+                  <li class="menu__mobile-item">
+                    <a class="menu__mobile-link" href="#partners">Партнеры</a>
+                  </li>
+                  <li class="menu__mobile-item">
+                    <a class="menu__mobile-link" href="#faqs">Вопросы</a>
+                  </li>
+                  <li class="menu__mobile-item">
+                    <a class="menu__mobile-link" href="#contacts">Контакты</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
 
-<body>
+        <div
+          class="header__info wow animate__animated animate__fadeInDown"
+          data-wow-delay="0.5s"
+        >
+          <h2 class="header__info-saving">ЭКОНОМИЯ ДО 80%</h2>
+          <div class="header__info-title">
+            ЧЕРНАЯ ПЯТНИЦА
+            <span class="header__info-span">ВСЕГО 4 ДНЯ</span>
+          </div>
+        </div>
+      </div>
+    </header>
 
+    <section class="weoffer" id="benefits">
+      <div class="container">
+        <div class="weoffer__title">ЧТО МЫ ПРЕДЛАГАЕМ</div>
+        <div class="weoffer__text">
+          Помимо отличных предложений на одежду, обувь и аксессуары, есть и
+          другие причины посетить нас на этой неделе.
+        </div>
+        <div class="weoffer__inner">
+          <div
+            class="weoffer__item wow animate__animated animate__bounceInLeft"
+            data-wow-delay="0.5s"
+          >
+            <div class="weoffer__item-icon icon-message"></div>
+            <div class="weoffer__item-title">Дружелюбные менеджеры</div>
+            <div class="weoffer__item-text">
+              У нас работает лучшая команда высококвалифицированных и
+              приветливых менеджеров и продавцов.
+            </div>
+          </div>
+          <div
+            class="weoffer__item wow animate__animated animate__bounceInUp"
+            data-wow-delay="0.5s"
+          >
+            <div class="weoffer__item-icon icon-spinner11"></div>
+            <div class="weoffer__item-title">
+              14-дневная гарантия возврата денег
+            </div>
+            <div class="weoffer__item-text">
+              Если вам не понравился ни один из наших товаров, вы всегда можете
+              вернуть деньги даже после окончания распродажи.
+            </div>
+          </div>
+          <div
+            class="weoffer__item wow animate__animated animate__bounceInRight"
+            data-wow-delay="0.5s"
+          >
+            <div class="weoffer__item-icon icon-truck"></div>
+            <div class="weoffer__item-title">Бесплатная доставка</div>
+            <div class="weoffer__item-text">
+              Наша команда также обеспечивает бесплатную и безопасную доставку
+              одежды и обуви в любую точку мира.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <script src="js/main.min.js"></script>
-</body>
+    <section class="offers" id="top">
+      <div class="offers__bg">
+        <div class="container">
+          <div class="offers__title">ВЗГЛЯНИТЕ НА НАШИ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ</div>
+          <div class="offers__text">
+            Мы подготовили для вас несколько уникальных предложений. От одежды
+            до обуви и аксессуаров - наши цены обязательно удивят вас и ваш
+            кошелек!
+          </div>
 
+          <div class="offers__inner">
+            <div class="offers__item">
+              <div class="offers__item-discount"><span>до</span> -30%</div>
+              <img class="offers__item-img" src="images/content/01.png" />
+              <div class="offers__item-animation">
+                <a class="offers__item-title" href="javascript:void(0);"
+                  >Кроссовки</a
+                >
+                <div class="offers__item-line"></div>
+              </div>
+              <ul class="offers__list">
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >Nike</a
+                  >
+                </li>
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >New Balance</a
+                  >
+                </li>
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >Under Armour</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="offers__item">
+              <div class="offers__item-discount"><span>до</span> -60%</div>
+              <img class="offers__item-img" src="images/content/02.png" />
+              <div class="offers__item-animation">
+                <a class="offers__item-title" href="javascript:void(0);"
+                  >Пуловеры</a
+                >
+                <div class="offers__item-line"></div>
+              </div>
+              <ul class="offers__list">
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >Chaps</a
+                  >
+                </li>
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >DKNY</a
+                  >
+                </li>
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >Lauren</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="offers__item">
+              <div class="offers__item-discount"><span>до</span> -90%</div>
+              <img class="offers__item-img" src="images/content/03.png" />
+              <div class="offers__item-animation">
+                <a class="offers__item-title" href="javascript:void(0);"
+                  >Аксессуары</a
+                >
+                <div class="offers__item-line"></div>
+              </div>
+              <ul class="offers__list">
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >Hermes</a
+                  >
+                </li>
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >Versace</a
+                  >
+                </li>
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >Prada</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="offers__item">
+              <div class="offers__item-discount"><span>до</span> -90%</div>
+              <img
+                class="offers__item-img size-img"
+                src="images/content/04.png"
+              />
+              <div class="offers__item-animation">
+                <a class="offers__item-title" href="javascript:void(0);"
+                  >Повседневная одежда</a
+                >
+                <div class="offers__item-line"></div>
+              </div>
+              <ul class="offers__list">
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >Fila</a
+                  >
+                </li>
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >Hackett</a
+                  >
+                </li>
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >Levi’s</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="offers__item">
+              <div class="offers__item-discount"><span>до</span> -50%</div>
+              <img class="offers__item-img" src="images/content/05.png" />
+              <div class="offers__item-animation">
+                <a class="offers__item-title" href="javascript:void(0);"
+                  >Спортивная <span class="offers__item-span">одежда</span></a
+                >
+                <div class="offers__item-line"></div>
+              </div>
+              <ul class="offers__list">
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >Adidas</a
+                  >
+                </li>
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >Reebok</a
+                  >
+                </li>
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >Puma</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="offers__item">
+              <div class="offers__item-discount"><span>до</span> -30%</div>
+              <img class="offers__item-img" src="images/content/06.png" />
+              <div class="offers__item-animation">
+                <a class="offers__item-title" href="javascript:void(0);"
+                  >Спецодежда</a
+                >
+                <div class="offers__item-line"></div>
+              </div>
+              <ul class="offers__list">
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >Everlane</a
+                  >
+                </li>
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >Uniqlo</a
+                  >
+                </li>
+                <li class="offers__list-item">
+                  <a class="offers__list-link" href="javascript:void(0);"
+                    >Express</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="container">
+        <div class="subscribe__bg">
+          <div class="subscribe__title">БУДЬТЕ В КУРСЕ</div>
+          <div class="subscribe__text">
+            Готовьте наличные, кредитные карты и настроение! Следите за
+            новостями и получите скидку до 90% на безумной распродаже в Черную
+            пятницу.
+          </div>
+        </div>
+        <form class="subscribe__form">
+          <div class="subscribe__form-inner">
+            <input
+              class="subscribe__form-input"
+              type="email"
+              placeholder="Электронная почта"
+            />
+            <button class="subscribe__form-button" type="button">
+              Подписаться
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="brands" id="partners">
+      <div class="brands__bg">
+        <div class="container">
+          <div class="brands__title">ОГРОМНЫЕ СКИДКИ НА ЛУЧШИЕ БРЕНДЫ</div>
+          <div class="brands__text">
+            Мы сотрудничаем с различными широко известными поставщиками одежды и
+            обуви, которые рады предоставить вам скидку на свои товары.
+          </div>
+
+          <div class="brands__text-img">
+            <div
+              class="brands__text-bg1 wow animate__animated animate__bounceIn"
+              data-wow-delay="0.5s"
+            >
+              <span class="brands__text1">bra</span>
+            </div>
+            <div
+              class="brands__text-bg2 wow animate__animated animate__bounceIn"
+              data-wow-delay="1s"
+            >
+              <span class="brands__text2">n</span>
+            </div>
+            <div
+              class="brands__text-bg3 wow animate__animated animate__bounceIn"
+              data-wow-delay="1.5s"
+            >
+              <span class="brands__text3">ds</span>
+            </div>
+          </div>
+
+          <div class="brands__inner">
+            <div class="brands__item">
+              <a class="brands__item-link" href="javascript:void(0);">
+                <img class="brands__item-img" src="images/brand-1.png" alt="" />
+                <div class="brands__item-sale">- 40%</div>
+              </a>
+            </div>
+            <div class="brands__item">
+              <a class="brands__item-link" href="javascript:void(0);">
+                <img class="brands__item-img" src="images/brand-2.png" alt="" />
+                <div class="brands__item-sale">- 40%</div>
+              </a>
+            </div>
+            <div class="brands__item">
+              <a class="brands__item-link" href="javascript:void(0);">
+                <img class="brands__item-img" src="images/brand-3.png" alt="" />
+                <div class="brands__item-sale">- 40%</div>
+              </a>
+            </div>
+            <div class="brands__item">
+              <a class="brands__item-link" href="javascript:void(0);">
+                <img class="brands__item-img" src="images/brand-4.png" alt="" />
+                <div class="brands__item-sale">- 40%</div>
+              </a>
+            </div>
+            <div class="brands__item">
+              <a class="brands__item-link" href="javascript:void(0);">
+                <img class="brands__item-img" src="images/brand-5.png" alt="" />
+                <div class="brands__item-sale">- 40%</div>
+              </a>
+            </div>
+            <div class="brands__item">
+              <a class="brands__item-link" href="javascript:void(0);">
+                <img class="brands__item-img" src="images/brand-6.png" alt="" />
+                <div class="brands__item-sale">- 40%</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="days">
+      <div class="container">
+        <div class="days-tabs">
+          <div class="days-tabs__content">
+            <div id="tab-1" class="days-tabs__content-item">
+              <div class="days-tabs__item-img-block">
+                <img
+                  class="days-tabs__item-img"
+                  src="images/content/tab-2-img.jpg"
+                  alt=""
+                />
+                <img
+                  class="days-tabs__item-img-small"
+                  src="images/content/tab-2-img-small.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="days-tabs__item-info">
+                <div class="days-tabs__item-title">
+                  ДЕНЬ 1: ПРИСОЕДИНЯЙТЕСЬ К НАШЕЙ РАСПРОДАЖЕ, ЧТОБЫ КУПИТЬ
+                  ЭКСКЛЮЗИВНУЮ СПОРТИВНУЮ ОДЕЖДУ
+                </div>
+                <p class="days-tabs__item-text">
+                  Скоро начнется распродажа «Черная пятница», первый день
+                  которой будет посвящен спортивной одежде. Это не только одежда
+                  известных брендов, но и спортивная одежда, а также
+                  эксклюзивные предложения, доступные только в нашем магазине в
+                  течение первого дня распродажи.
+                </p>
+                <button class="days-tabs__item-btn" type="submit">
+                  ПРИСОЕДИНЯЙТЕСЬ СЕЙЧАС
+                </button>
+              </div>
+            </div>
+            <div id="tab-2" class="days-tabs__content-item">
+              <div class="days-tabs__item-img-block">
+                <img
+                  class="days-tabs__item-img"
+                  src="images/content/tab-1-img.jpg"
+                  alt=""
+                />
+                <img
+                  class="days-tabs__item-img-small"
+                  src="images/content/tab-1-img-small.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="days-tabs__item-info">
+                <div class="days-tabs__item-title">
+                  ДЕНЬ 2: ПОВСЕДНЕВНАЯ ОДЕЖДА И АКСЕССУАРЫ.
+                </div>
+                <p class="days-tabs__item-text">
+                  Ищете огромные скидки на любимую повседневную одежду? Во
+                  второй день нашей распродажи вы сможете получить доступ ко
+                  всем видам повседневной одежды, которые продаются в нашем
+                  магазине. Вы также найдете отличные предложения на аксессуары
+                  в течение второго дня.
+                </p>
+                <button class="days-tabs__item-btn" type="submit">
+                  ПРИСОЕДИНЯЙТЕСЬ СЕЙЧАС
+                </button>
+              </div>
+            </div>
+            <div id="tab-3" class="days-tabs__content-item">
+              <div class="days-tabs__item-img-block">
+                <img
+                  class="days-tabs__item-img"
+                  src="images/content/tab-3-img.jpg"
+                  alt=""
+                />
+                <img
+                  class="days-tabs__item-img-small"
+                  src="images/content/tab-3-img-small.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="days-tabs__item-info">
+                <div class="days-tabs__item-title">
+                  ДЕНЬ 3: ОБНОВИТЕ ГАРДЕРОБ СПЕЦОДЕЖДЫ
+                </div>
+                <p class="days-tabs__item-text">
+                  В нашем магазине есть отличная коллекция спецодежды, и на
+                  третий день распродажи в Черную пятницу будет множество скидок
+                  на этот тип одежды. Покупайте то, что вам нравится, не
+                  переплачивая за любимые бренды!
+                </p>
+                <button class="days-tabs__item-btn" type="submit">
+                  ПРИСОЕДИНЯЙТЕСЬ СЕЙЧАС
+                </button>
+              </div>
+            </div>
+            <div id="tab-4" class="days-tabs__content-item">
+              <div class="days-tabs__item-img-block">
+                <img
+                  class="days-tabs__item-img"
+                  src="images/content/tab-2-img.jpg"
+                  alt=""
+                />
+                <img
+                  class="days-tabs__item-img-small"
+                  src="images/content/tab-2-img-small.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="days-tabs__item-info">
+                <div class="days-tabs__item-title">
+                  ДЕНЬ 4. ЕЩЕ БОЛЬШЕ УДИВИТЕЛЬНЫХ ПРЕДЛОЖЕНИЙ НА ВСЮ ОДЕЖДУ.
+                </div>
+                <p class="days-tabs__item-text">
+                  Если у вас нет времени посетить нашу распродажу в течение
+                  первых 3 дней, то один бонусный день лучших предложений по
+                  одежде, аксессуарам и обуви именно для вас! Воспользуйтесь
+                  всеми нашими специальными предложениями и другими выгодными
+                  предложениями, которые мы предлагаем.
+                </p>
+                <button class="days-tabs__item-btn" type="submit">
+                  ПРИСОЕДИНЯЙТЕСЬ СЕЙЧАС
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="days-tabs__tab">
+            <a class="days-tabs__tab-item" href="#tab-1">23 пт. день первый</a>
+            <a class="days-tabs__tab-item" href="#tab-2">25 вс. день второй</a>
+            <a class="days-tabs__tab-item" href="#tab-3">26 пн. день третий</a>
+            <a class="days-tabs__tab-item" href="#tab-4"
+              >28 ср. день четветрый</a
+            >
+            <p class="days-tabs__tab-stay">Всего 4 дня</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="gallery__bg">
+        <div class="container">
+          <div class="gallery__title">
+            ОСНОВНЫЕ МОМЕНТЫ РАСПРОДАЖИ В ЧЕРНУЮ ПЯТНИЦУ
+          </div>
+          <p class="gallery__text">
+            В нашей галерее собраны лучшие моменты наших предыдущих распродаж, а
+            также фотографии эксклюзивной одежды.
+          </p>
+        </div>
+        <div class="gallery__inner">
+          <div class="gallery-animate__left wow animate__animated animate__bounceInLeft" data-wow-delay="1s">
+            <div class="gallery__item">
+              <a
+                data-fancybox="gallery"
+                data-src="images/content/gallery-1-l.jpg"
+              >
+                <img
+                  class="gallery__item-img"
+                  src="images/content/gallery-1-s.jpg"
+                />
+              </a>
+            </div>
+            <div class="gallery__item">
+              <a
+                data-fancybox="gallery"
+                data-src="images/content/gallery-5-l.jpg"
+              >
+                <img
+                  class="gallery__item-img"
+                  src="images/content/gallery-5-s.jpg"
+                />
+              </a>
+            </div>
+            <div class="gallery__item">
+              <a
+                data-fancybox="gallery"
+                data-src="images/content/gallery-2-l.jpg"
+              >
+                <img
+                  class="gallery__item-img"
+                  src="images/content/gallery-2-s.jpg"
+                />
+              </a>
+            </div>
+            <div class="gallery__item">
+              <a
+                data-fancybox="gallery"
+                data-src="images/content/gallery-6-l.jpg"
+              >
+                <img
+                  class="gallery__item-img"
+                  src="images/content/gallery-6-s.jpg"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="gallery-animate__right wow animate__animated animate__bounceInRight" data-wow-delay="1.2s">
+            <div class="gallery__item">
+              <a
+                data-fancybox="gallery"
+                data-src="images/content/gallery-3-l.jpg"
+              >
+                <img
+                  class="gallery__item-img"
+                  src="images/content/gallery-3-s.jpg"
+                />
+              </a>
+            </div>
+            <div class="gallery__item">
+              <a
+                data-fancybox="gallery"
+                data-src="images/content/gallery-7-l.jpg"
+              >
+                <img
+                  class="gallery__item-img"
+                  src="images/content/gallery-7-s.jpg"
+                />
+              </a>
+            </div>
+            <div class="gallery__item">
+              <a
+                data-fancybox="gallery"
+                data-src="images/content/gallery-4-l.jpg"
+              >
+                <img
+                  class="gallery__item-img"
+                  src="images/content/gallery-4-s.jpg"
+                />
+              </a>
+            </div>
+            <div class="gallery__item">
+              <a
+                data-fancybox="gallery"
+                data-src="images/content/gallery-8-l.jpg"
+              >
+                <img
+                  class="gallery__item-img"
+                  src="images/content/gallery-8-s.jpg"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faqs">
+      <div class="container">
+        <div class="faq__inner">
+          <div class="faq__info">
+            <div class="faq__info-title">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</div>
+            <p class="faq__info-text">
+              Вот некоторые из наиболее часто задаваемых вопросов. Найдите ответ
+              или свяжитесь с нами для уточнения деталей.
+            </p>
+            <button class="faq__info-btn" type="submit">связаться</button>
+          </div>
+
+          <div class="faq__tabs-inner">
+            <div class="faq__tab-item">
+              <a class="faq__tab" href="#faq__tab-1">
+                ЧТО ТАКОЕ ЧЕРНАЯ ПЯТНИЦА?
+              </a>
+              <p id="faq__tab-1" class="faq__tab-content">
+                День после Дня благодарения (пятница) известен как Черная
+                пятница. Раньше это было неофициально или официально началом
+                сезона праздничных покупок. В последние несколько лет мы стали
+                свидетелями тенденции проводить распродажи в Черную пятницу
+                онлайн.
+              </p>
+            </div>
+            <div class="faq__tab-item">
+              <a class="faq__tab" href="#faq__tab-2">
+                ЛЮДИ ДЕЛАЮТ ПОКУПКИ ТОЛЬКО С НАСТОЛЬНЫХ УСТРОЙСТВ?
+              </a>
+              <p id="faq__tab-2" class="faq__tab-content">
+                Нет, они этого не делают. Наш веб-сайт также доступен на
+                мобильных устройствах, поэтому наши клиенты любят делать покупки
+                не только на настольных компьютерах, но также на смартфонах и
+                планшетах. Вы можете выбрать любое устройство для участия в
+                распродаже Черной пятницы.
+              </p>
+            </div>
+            <div class="faq__tab-item">
+              <a class="faq__tab" href="#faq__tab-3">
+                ПОЧЕМУ ЭТО НАЗЫВАЕТСЯ ЧЕРНАЯ ПЯТНИЦА?
+              </a>
+              <p id="faq__tab-3" class="faq__tab-content">
+                Многие розничные торговцы сообщают о самых высоких прибылях в
+                Черную пятницу. Черная часть названия «Черная пятница» относится
+                к компаниям, которые записывают свои убытки красными чернилами,
+                а прибыли - черными. Эта традиция живет и в наше время.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="contact__bg">
+        <div class="container">
+          <div class="contact__title">СВЯЖИТЕСЬ С НАМИ СЕЙЧАС</div>
+          <p class="contact__text">
+            Не стесняйтесь обращаться к нам, если вы хотите узнать любую
+            необходимую информацию или задать вопросы о нашей продаже.
+          </p>
+
+          <form class="contact__form">
+            <input
+              class="contact__form-name"
+              type="text"
+              placeholder="Имя:"
+              required
+            />
+            <input
+              class="contact__form-email"
+              type="email"
+              placeholder="Электронное письмо:"
+              required
+            />
+            <textarea
+              class="contact__form-text"
+              cols="60"
+              rows="15"
+              placeholder="Сообщение:"
+              required
+            ></textarea>
+            <button class="contact__form-btn" type="submit">
+              отправить сообщение
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__help">
+            <div class="footer__help-title footer__title">ПОМОЩЬ</div>
+            <ul class="footer__help-list">
+              <li class="footer__help-li">
+                <a class="footer__help-link" href="#benefits">Преимущества</a>
+              </li>
+              <li class="footer__help-li">
+                <a class="footer__help-link" href="#top">Лучшие Предложения</a>
+              </li>
+              <li class="footer__help-li">
+                <a class="footer__help-link" href="#partners">Партнеры</a>
+              </li>
+              <li class="footer__help-li">
+                <a class="footer__help-link" href="#faqs"
+                  >Часто Задаваемые Вопросы</a
+                >
+              </li>
+              <li class="footer__help-li">
+                <a class="footer__help-link" href="javascript:void(0);">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__news">
+            <div class="footer__news-title footer__title">
+              ПОДПИСАТЬСЯ НА НОВОСТИ
+            </div>
+            <form class="footer__news-form">
+              <input
+                class="footer__news-mail"
+                type="email"
+                placeholder="Электронная почта"
+              />
+              <button class="footer__news-btn" type="button">
+                присоединяйтесь
+              </button>
+            </form>
+            <p class="footer__news-text">
+              Подпишитесь на нашу рассылку, чтобы получать последние новости о
+              нашей распродаже прямо на свой почтовый ящик.
+            </p>
+          </div>
+          <div class="footer__social" id="contacts">
+            <div class="footer__social-title footer__title">СВЯЗАТЬСЯ</div>
+            <div class="footer__social-inner">
+              <a class="footer__social-link" href="javascript:void(0);">
+                <svg
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 32 32"
+                >
+                  <title>messenger</title>
+                  <path
+                    class="footer__social-svg"
+                    fill="#000"
+                    d="M0 15.52c0-8.92 6.987-15.52 16-15.52s16 6.6 16 15.52-6.987 15.52-16 15.52c-1.613 0-3.173-0.213-4.627-0.613-0.1-0.028-0.214-0.044-0.333-0.044-0.188 0-0.367 0.041-0.529 0.114l0.008-0.003-3.187 1.4c-0.153 0.070-0.332 0.111-0.521 0.111-0.694 0-1.259-0.553-1.279-1.242l-0-0.002-0.093-2.853c-0.016-0.361-0.177-0.681-0.426-0.906l-0.001-0.001c-3.085-2.791-5.015-6.808-5.015-11.277 0-0.071 0.001-0.143 0.001-0.214l-0 0.011zM11.093 12.6l-4.693 7.467c-0.467 0.707 0.427 1.52 1.093 1l5.053-3.827c0.347-0.267 0.8-0.267 1.16 0l3.733 2.8c1.12 0.84 2.72 0.533 3.467-0.64l4.693-7.467c0.467-0.707-0.427-1.507-1.093-1l-5.053 3.827c-0.333 0.267-0.8 0.267-1.147 0l-3.733-2.8c-0.397-0.303-0.901-0.485-1.447-0.485-0.853 0-1.602 0.445-2.028 1.115l-0.006 0.010z"
+                  ></path>
+                </svg>
+              </a>
+              <a class="footer__social-link" href="javascript:void(0);">
+                <svg
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="24"
+                  viewBox="0 0 24 28"
+                >
+                  <title>instagram</title>
+                  <path
+                    class="footer__social-svg"
+                    d="M16 14c0-2.203-1.797-4-4-4s-4 1.797-4 4 1.797 4 4 4 4-1.797 4-4zM18.156 14c0 3.406-2.75 6.156-6.156 6.156s-6.156-2.75-6.156-6.156 2.75-6.156 6.156-6.156 6.156 2.75 6.156 6.156zM19.844 7.594c0 0.797-0.641 1.437-1.437 1.437s-1.437-0.641-1.437-1.437 0.641-1.437 1.437-1.437 1.437 0.641 1.437 1.437zM12 4.156c-1.75 0-5.5-0.141-7.078 0.484-0.547 0.219-0.953 0.484-1.375 0.906s-0.688 0.828-0.906 1.375c-0.625 1.578-0.484 5.328-0.484 7.078s-0.141 5.5 0.484 7.078c0.219 0.547 0.484 0.953 0.906 1.375s0.828 0.688 1.375 0.906c1.578 0.625 5.328 0.484 7.078 0.484s5.5 0.141 7.078-0.484c0.547-0.219 0.953-0.484 1.375-0.906s0.688-0.828 0.906-1.375c0.625-1.578 0.484-5.328 0.484-7.078s0.141-5.5-0.484-7.078c-0.219-0.547-0.484-0.953-0.906-1.375s-0.828-0.688-1.375-0.906c-1.578-0.625-5.328-0.484-7.078-0.484zM24 14c0 1.656 0.016 3.297-0.078 4.953-0.094 1.922-0.531 3.625-1.937 5.031s-3.109 1.844-5.031 1.937c-1.656 0.094-3.297 0.078-4.953 0.078s-3.297 0.016-4.953-0.078c-1.922-0.094-3.625-0.531-5.031-1.937s-1.844-3.109-1.937-5.031c-0.094-1.656-0.078-3.297-0.078-4.953s-0.016-3.297 0.078-4.953c0.094-1.922 0.531-3.625 1.937-5.031s3.109-1.844 5.031-1.937c1.656-0.094 3.297-0.078 4.953-0.078s3.297-0.016 4.953 0.078c1.922 0.094 3.625 0.531 5.031 1.937s1.844 3.109 1.937 5.031c0.094 1.656 0.078 3.297 0.078 4.953z"
+                  ></path>
+                </svg>
+              </a>
+              <a class="footer__social-link" href="javascript:void(0);">
+                <svg
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 28 28"
+                >
+                  <title>telegram</title>
+                  <path
+                    class="footer__social-svg"
+                    d="M18.578 20.422l2.297-10.828c0.203-0.953-0.344-1.328-0.969-1.094l-13.5 5.203c-0.922 0.359-0.906 0.875-0.156 1.109l3.453 1.078 8.016-5.047c0.375-0.25 0.719-0.109 0.438 0.141l-6.484 5.859-0.25 3.563c0.359 0 0.516-0.156 0.703-0.344l1.687-1.625 3.5 2.578c0.641 0.359 1.094 0.172 1.266-0.594zM28 14c0 7.734-6.266 14-14 14s-14-6.266-14-14 6.266-14 14-14 14 6.266 14 14z"
+                  ></path>
+                </svg>
+              </a>
+              <a class="footer__social-link" href="javascript:void(0);">
+                <svg
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 32 32"
+                >
+                  <title>facebook</title>
+                  <path
+                    class="footer__social-svg"
+                    d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+            <div class="footer__social-phone">
+              <a class="footer__social-tel" href="tel:80935001250"
+                >+3 8(093) 500 12 50</a
+              >
+            </div>
+          </div>
+        </div>
+        <p class="footer__social-copyright">© 2021 GetStyle. by AlexKosh</p>
+      </div>
+    </footer>
+
+    <script src="js/main.min.js"></script>
+  </body>
 </html>

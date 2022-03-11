@@ -9,6 +9,8 @@
   "author": "Alex Kosh",
   "license": "ISC",
   "devDependencies": {
+    "@fancyapps/ui": "^4.0.9",
+    "animate.css": "^4.1.1",
     "browser-sync": "^2.26.14",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
@@ -17,7 +19,9 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^4.1.0",
     "gulp-uglify-es": "^2.0.0",
+    "imagesloaded": "^4.1.4",
     "jquery": "^3.6.0",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "wow.js": "^1.2.2"
   }
 }

@@ -30,6 +30,8 @@ function watching() {
 function styles() {
   return src([
         'app/scss/style.scss',
+        'node_modules/animate.css/animate.css',
+        'node_modules/@fancyapps\\ui/dist/fancybox.css',   
         'node_modules/normalize.css/normalize.css'
   ])
         .pipe(sass({outputStyle: 'compressed'}))
@@ -46,6 +48,9 @@ function styles() {
 function scripts() {
   return src([
         'node_modules/jquery/dist/jquery.js',
+        'node_modules/imagesloaded/imagesloaded.pkgd.js',
+        'node_modules/wow.js/dist/wow.js',
+        'node_modules/@fancyapps\\ui/dist/fancybox.umd.js',
         'app/js/main.js'
   ])
         .pipe(concat('main.min.js'))
